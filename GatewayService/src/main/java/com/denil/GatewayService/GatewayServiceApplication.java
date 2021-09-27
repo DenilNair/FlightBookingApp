@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 @SpringBootApplication
 @EnableEurekaClient
 @RefreshScope
+
 public class GatewayServiceApplication {
 
 	public static void main(String[] args) {

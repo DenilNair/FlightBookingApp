@@ -271,3 +271,761 @@ Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.
 2021-09-27 09:19:18.421  INFO 33400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
 2021-09-27 09:19:18.910  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 5.611 seconds (JVM running for 134378.657)
 2021-09-27 09:19:18.913  INFO 33400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 09:24:18.314  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:29:18.338  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:34:18.415  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:39:19.064  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:44:19.088  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:49:19.130  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:54:19.140  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 09:59:19.153  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:04:19.173  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:09:19.203  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:14:19.564  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:19:19.614  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:24:19.786  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:29:19.976  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:34:20.082  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:39:20.123  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:44:20.148  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:49:20.526  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:54:20.548  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 10:59:20.568  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:04:20.591  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:09:20.607  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:14:20.647  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:19:20.666  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:24:20.690  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:29:20.712  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:34:20.749  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:39:20.888  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:44:20.909  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:49:21.033  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 11:54:21.048  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:01:00.143  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:06:00.150  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:11:00.157  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:16:00.160  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:21:00.166  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:26:00.183  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:31:00.199  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:36:00.201  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:41:00.217  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:46:00.248  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:51:00.280  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 12:56:00.287  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:01:00.302  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:06:00.318  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:11:00.319  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:16:00.329  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:21:00.338  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:26:00.341  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 13:31:00.352  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 14:44:56.131  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 14:49:56.262  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 14:54:56.616  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 14:59:56.627  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:04:56.645  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:09:56.654  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:14:56.662  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:17:56.293  WARN 33400 --- [reactor-http-nio-4] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: AIRCRAFT-SERVICE
+2021-09-27 15:17:56.572  WARN 33400 --- [reactor-http-nio-4] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: AIRCRAFT-SERVICE
+2021-09-27 15:19:56.664  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:21:34.480  WARN 33400 --- [reactor-http-nio-5] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: AIRCRAFT-SERVICE
+2021-09-27 15:21:36.351  WARN 33400 --- [reactor-http-nio-5] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: AIRCRAFT-SERVICE
+2021-09-27 15:24:56.671  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:29:08.641  WARN 33400 --- [reactor-http-nio-6] o.s.c.l.core.RoundRobinLoadBalancer      : No servers available for service: AIRCRAFT-SERVICE
+2021-09-27 15:29:56.694  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:30:20.908  INFO 33400 --- [Thread-87] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 15:30:20.909  INFO 33400 --- [Thread-87] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632736820909, current=DOWN, previous=UP]
+2021-09-27 15:30:20.911  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 15:30:21.078  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 15:30:21.366  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-27 15:30:21.377  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-27 15:30:21.512  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 15:30:21.513  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 15:30:23.221  INFO 33400 --- [Thread-87] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 15:30:23.841  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 15:30:23.957  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:23.959  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:23.962  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 15:30:24.834  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 15:30:24.835  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 15:30:25.597  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 15:30:25.749  WARN 33400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 15:30:25.757  INFO 33400 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 15:30:25.821  WARN 33400 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 15:30:25.871  INFO 33400 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 15:30:25.906  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 15:30:25.908  INFO 33400 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 15:30:25.929  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 15:30:25.982  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 15:30:25.989  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 15:30:25.994  INFO 33400 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 15:30:26.009  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632736826008 with initial instances count: 2
+2021-09-27 15:30:26.009  INFO 33400 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 15:30:26.009  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632736826009, current=UP, previous=STARTING]
+2021-09-27 15:30:26.010  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 15:30:26.032  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 15:30:26.037  INFO 33400 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 15:30:26.038  INFO 33400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 15:30:26.247  INFO 33400 --- [Thread-87] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 15:30:29.037  INFO 33400 --- [Thread-87] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 15:30:29.142  INFO 33400 --- [Thread-87] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 15:30:29.681  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 15:30:29.681  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 15:30:29.727  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 9.077 seconds (JVM running for 156649.537)
+2021-09-27 15:30:29.731  INFO 33400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 15:30:30.174  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 15:30:30.188  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:30.189  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:30.189  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:30.526  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 15:30:30.526  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 15:30:30.526  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 15:30:30.526  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 15:30:30.526  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 15:30:31.115  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 15:30:31.116  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 15:30:31.116  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 15:30:31.704  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 15:30:31.780  WARN 33400 --- [restartedMain] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+2021-09-27 15:30:33.837  INFO 33400 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-27 15:30:33.841 ERROR 33400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.denil.GatewayService.GatewayServiceApplication.main(GatewayServiceApplication.java:15) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 21 common frames omitted
+
+2021-09-27 15:30:39.458  INFO 33400 --- [Thread-104] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 15:30:39.459  INFO 33400 --- [Thread-104] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632736839459, current=DOWN, previous=UP]
+2021-09-27 15:30:39.459  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 15:30:39.476  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 15:30:39.504  INFO 33400 --- [Thread-104] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 15:30:40.041  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-27 15:30:40.042  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-27 15:30:40.098  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 15:30:40.098  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 15:30:41.241  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 15:30:41.264  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:41.265  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:41.266  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:41.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 15:30:41.796  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 15:30:42.202  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 15:30:42.246  WARN 33400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 15:30:42.249  INFO 33400 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 15:30:42.262  WARN 33400 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 15:30:42.280  INFO 33400 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 15:30:42.304  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 15:30:42.304  INFO 33400 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 15:30:42.318  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 15:30:42.331  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 15:30:42.338  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 15:30:42.345  INFO 33400 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 15:30:42.359  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632736842359 with initial instances count: 1
+2021-09-27 15:30:42.360  INFO 33400 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 15:30:42.360  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632736842360, current=UP, previous=STARTING]
+2021-09-27 15:30:42.360  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 15:30:42.371  INFO 33400 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 15:30:42.372  INFO 33400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 15:30:42.373  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 15:30:42.519  INFO 33400 --- [Thread-104] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 15:30:42.522  INFO 33400 --- [Thread-104] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 15:30:42.609  INFO 33400 --- [Thread-104] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 15:30:42.910  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 15:30:42.910  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 15:30:43.285  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 15:30:43.297  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:43.297  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:43.297  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 15:30:43.601  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 15:30:43.602  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 15:30:43.602  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 15:30:43.602  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 15:30:43.985  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 15:30:44.034  WARN 33400 --- [restartedMain] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+2021-09-27 15:30:46.108  INFO 33400 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-27 15:30:46.110 ERROR 33400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.denil.GatewayService.GatewayServiceApplication.main(GatewayServiceApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 21 common frames omitted
+
+2021-09-27 15:31:12.391  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - Re-registering apps/API-GATEWAY
+2021-09-27 15:31:12.392  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 15:31:12.400  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 15:35:42.334  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:40:42.383  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:45:42.400  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:50:42.520  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 15:55:42.527  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:00:42.552  INFO 33400 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:02:34.211  INFO 33400 --- [Thread-123] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:02:34.212  INFO 33400 --- [Thread-123] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738754212, current=DOWN, previous=UP]
+2021-09-27 16:02:35.605  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:02:35.606  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:02:35.762  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-27 16:02:35.766  INFO 33400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-27 16:02:35.778  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:02:35.778  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:02:36.377  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:02:36.377  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:02:36.390  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.390  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.391  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.391  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.468  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.469  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:02:36.791  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:02:36.792  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:02:36.792  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:02:36.795  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:02:37.316  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:02:37.320  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:02:37.382  WARN 33400 --- [restartedMain] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmxMBeanExporter' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/jmx/JmxEndpointAutoConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jmx.export.MBeanExportException: Failed to register MBean for endpoint 'beans'; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Endpoint,name=Beans
+2021-09-27 16:02:37.410  INFO 33400 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-27 16:02:37.421 ERROR 33400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmxMBeanExporter' defined in class path resource [org/springframework/boot/actuate/autoconfigure/endpoint/jmx/JmxEndpointAutoConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.jmx.export.MBeanExportException: Failed to register MBean for endpoint 'beans'; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Endpoint,name=Beans
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.denil.GatewayService.GatewayServiceApplication.main(GatewayServiceApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: org.springframework.jmx.export.MBeanExportException: Failed to register MBean for endpoint 'beans'; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Endpoint,name=Beans
+	at org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter.register(JmxEndpointExporter.java:105) ~[spring-boot-actuator-2.5.4.jar:2.5.4]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133) ~[na:na]
+	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1801) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter.register(JmxEndpointExporter.java:90) ~[spring-boot-actuator-2.5.4.jar:2.5.4]
+	at org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter.afterPropertiesSet(JmxEndpointExporter.java:81) ~[spring-boot-actuator-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 21 common frames omitted
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Endpoint,name=Beans
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.actuate.endpoint.jmx.JmxEndpointExporter.register(JmxEndpointExporter.java:98) ~[spring-boot-actuator-2.5.4.jar:2.5.4]
+	... 33 common frames omitted
+
+2021-09-27 16:02:37.426  WARN 33400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:02:37.432  INFO 33400 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:02:37.484  WARN 33400 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:02:37.519  INFO 33400 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:02:37.548  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:02:37.549  INFO 33400 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:02:37.562  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:02:37.593  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:02:37.600  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:02:37.607  INFO 33400 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:02:37.622  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632738757622 with initial instances count: 3
+2021-09-27 16:02:37.623  INFO 33400 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:02:37.623  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738757623, current=UP, previous=STARTING]
+2021-09-27 16:02:37.623  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:02:37.638  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:02:37.650  INFO 33400 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:02:37.651  INFO 33400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:02:37.965  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 3.781 seconds (JVM running for 158577.775)
+2021-09-27 16:02:37.968  INFO 33400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 16:02:54.014  INFO 33400 --- [Thread-142] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:02:54.015  INFO 33400 --- [Thread-142] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738774014, current=DOWN, previous=UP]
+2021-09-27 16:02:54.015  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:02:54.020  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:02:54.022  INFO 33400 --- [Thread-142] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 16:02:54.443  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:02:54.443  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:02:55.046  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:02:55.059  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:55.059  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:55.059  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:55.284  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:02:55.285  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:02:55.716  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:02:55.785  WARN 33400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:02:55.788  INFO 33400 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:02:55.811  WARN 33400 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:02:55.828  INFO 33400 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:02:55.848  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:02:55.848  INFO 33400 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:02:55.859  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:02:55.873  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:02:55.878  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:02:55.884  INFO 33400 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:02:55.895  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632738775895 with initial instances count: 3
+2021-09-27 16:02:55.896  INFO 33400 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:02:55.897  INFO 33400 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738775897, current=UP, previous=STARTING]
+2021-09-27 16:02:55.912  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:02:55.924  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:02:55.929  INFO 33400 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:02:55.930  INFO 33400 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:02:56.294  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 2.264 seconds (JVM running for 158596.104)
+2021-09-27 16:02:56.300  INFO 33400 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 16:02:57.072  INFO 33400 --- [Thread-142] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 16:02:57.076  INFO 33400 --- [Thread-142] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 16:02:57.202  INFO 33400 --- [Thread-142] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 16:02:57.722  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 33400 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:02:57.722  INFO 33400 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:02:58.298  INFO 33400 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:02:58.310  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:58.311  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:58.311  INFO 33400 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:02:58.560  INFO 33400 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:02:58.908  INFO 33400 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:02:58.953  WARN 33400 --- [restartedMain] onfigReactiveWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+2021-09-27 16:03:01.027  INFO 33400 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-09-27 16:03:01.031 ERROR 33400 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'springApplicationAdminRegistrar' defined in class path resource [org/springframework/boot/autoconfigure/admin/SpringApplicationAdminJmxAutoConfiguration.class]: Invocation of init method failed; nested exception is javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.9.jar:5.3.9]
+	at org.springframework.boot.web.reactive.context.ReactiveWebServerApplicationContext.refresh(ReactiveWebServerApplicationContext.java:64) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332) ~[spring-boot-2.5.4.jar:2.5.4]
+	at com.denil.GatewayService.GatewayServiceApplication.main(GatewayServiceApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.5.4.jar:2.5.4]
+Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.boot:type=Admin,name=SpringApplication
+	at java.management/com.sun.jmx.mbeanserver.Repository.addMBean(Repository.java:436) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerWithRepository(DefaultMBeanServerInterceptor.java:1855) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerDynamicMBean(DefaultMBeanServerInterceptor.java:955) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerObject(DefaultMBeanServerInterceptor.java:890) ~[na:na]
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.registerMBean(DefaultMBeanServerInterceptor.java:320) ~[na:na]
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.registerMBean(JmxMBeanServer.java:522) ~[na:na]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar.afterPropertiesSet(SpringApplicationAdminMXBeanRegistrar.java:129) ~[spring-boot-2.5.4.jar:2.5.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.9.jar:5.3.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.9.jar:5.3.9]
+	... 21 common frames omitted
+
+2021-09-27 16:03:25.891  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - Re-registering apps/API-GATEWAY
+2021-09-27 16:03:25.891  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:03:25.893  INFO 33400 --- [DiscoveryClient-HeartbeatExecutor-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:03:59.430  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-09-27 16:03:59.432  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:03:59.432  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738839432, current=DOWN, previous=UP]
+2021-09-27 16:03:59.432  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:03:59.435  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 16:03:59.435  INFO 33400 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:03:59.448  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 16:03:59.450  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 16:03:59.516  INFO 33400 --- [RMI TCP Connection(696)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 16:04:25.494  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 53436 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:04:25.517  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:04:25.621  INFO 53436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-27 16:04:25.621  INFO 53436 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-27 16:04:27.007  INFO 53436 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:04:27.085  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:04:27.087  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:04:27.091  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:04:28.123  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:04:28.124  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:04:28.125  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:04:28.753  INFO 53436 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:04:28.963  WARN 53436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:04:28.972  INFO 53436 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:04:29.038  WARN 53436 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:04:29.102  INFO 53436 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:04:29.172  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:04:29.179  INFO 53436 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:04:29.222  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:04:29.222  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:04:29.223  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:04:29.223  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:04:29.223  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:04:29.223  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:04:29.223  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:04:29.760  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:04:29.768  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:04:29.785  INFO 53436 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:04:29.803  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632738869802 with initial instances count: 2
+2021-09-27 16:04:29.804  INFO 53436 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:04:29.805  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632738869805, current=UP, previous=STARTING]
+2021-09-27 16:04:29.807  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:04:29.853  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:04:30.174  INFO 53436 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:04:30.176  INFO 53436 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:04:30.703  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 5.92 seconds (JVM running for 7.329)
+2021-09-27 16:07:42.140  INFO 53436 --- [Thread-1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:07:42.140  INFO 53436 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739062140, current=DOWN, previous=UP]
+2021-09-27 16:07:42.141  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:07:42.150  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:07:44.373  INFO 53436 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 16:07:47.406  INFO 53436 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 16:07:47.425  INFO 53436 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 16:07:47.792  INFO 53436 --- [Thread-1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 16:07:48.475  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 53436 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:07:48.477  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:07:49.913  INFO 53436 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:07:49.932  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:07:49.933  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:07:49.933  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:07:50.378  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:07:50.957  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:07:50.957  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:07:50.957  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:07:50.958  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:07:51.438  INFO 53436 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:07:51.520  WARN 53436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:07:51.523  INFO 53436 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:07:51.550  WARN 53436 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:07:51.586  INFO 53436 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:07:51.615  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:07:51.616  INFO 53436 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:07:51.643  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:07:51.677  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:07:51.684  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:07:51.690  INFO 53436 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:07:51.704  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632739071704 with initial instances count: 3
+2021-09-27 16:07:51.705  INFO 53436 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:07:51.705  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739071705, current=UP, previous=STARTING]
+2021-09-27 16:07:51.705  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:07:51.723  INFO 53436 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:07:51.724  INFO 53436 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:07:51.725  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:07:52.037  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 3.981 seconds (JVM running for 208.663)
+2021-09-27 16:07:52.040  INFO 53436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 16:08:59.880  INFO 53436 --- [Thread-16] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:08:59.881  INFO 53436 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739139881, current=DOWN, previous=UP]
+2021-09-27 16:08:59.889  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:08:59.910  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:09:01.993  INFO 53436 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 16:09:05.012  INFO 53436 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 16:09:05.016  INFO 53436 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 16:09:05.085  INFO 53436 --- [Thread-16] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 16:09:05.400  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 53436 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:09:05.400  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:09:05.984  INFO 53436 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:09:05.998  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:05.999  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:05.999  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:06.391  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:09:06.392  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:09:06.394  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:09:06.888  INFO 53436 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:09:06.978  WARN 53436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:09:06.983  INFO 53436 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:09:07.019  WARN 53436 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:09:07.058  INFO 53436 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:09:07.096  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:09:07.097  INFO 53436 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:09:07.117  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:09:07.152  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:09:07.161  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:09:07.170  INFO 53436 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:09:07.192  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632739147192 with initial instances count: 3
+2021-09-27 16:09:07.194  INFO 53436 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:09:07.194  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739147194, current=UP, previous=STARTING]
+2021-09-27 16:09:07.194  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:09:07.213  INFO 53436 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:09:07.214  INFO 53436 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:09:07.219  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:09:07.664  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 2.488 seconds (JVM running for 284.29)
+2021-09-27 16:09:07.670  INFO 53436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-27 16:09:19.617  INFO 53436 --- [Thread-25] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application API-GATEWAY with eureka with status DOWN
+2021-09-27 16:09:19.618  INFO 53436 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739159618, current=DOWN, previous=UP]
+2021-09-27 16:09:19.618  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:09:19.624  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:09:21.686  INFO 53436 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-09-27 16:09:24.705  INFO 53436 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-09-27 16:09:24.711  INFO 53436 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - deregister  status: 200
+2021-09-27 16:09:24.797  INFO 53436 --- [Thread-25] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2021-09-27 16:09:25.118  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Starting GatewayServiceApplication using Java 15.0.1 on Anonymous with PID 53436 (D:\spring-boot\GatewayService\target\classes started by DELL in D:\spring-boot\GatewayService)
+2021-09-27 16:09:25.118  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : No active profile set, falling back to default profiles: default
+2021-09-27 16:09:25.498  INFO 53436 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=378fe789-a237-3e63-822c-31839777c7be
+2021-09-27 16:09:25.514  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:25.514  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:25.514  INFO 53436 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-09-27 16:09:25.797  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2021-09-27 16:09:25.797  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2021-09-27 16:09:25.797  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2021-09-27 16:09:25.797  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2021-09-27 16:09:25.798  INFO 53436 --- [restartedMain] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2021-09-27 16:09:26.250  INFO 53436 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-09-27 16:09:26.316  WARN 53436 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-09-27 16:09:26.319  INFO 53436 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-09-27 16:09:26.340  WARN 53436 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-09-27 16:09:26.359  INFO 53436 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-09-27 16:09:26.382  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-09-27 16:09:26.382  INFO 53436 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-09-27 16:09:26.394  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-09-27 16:09:26.415  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-09-27 16:09:26.422  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-09-27 16:09:26.427  INFO 53436 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-09-27 16:09:26.441  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1632739166441 with initial instances count: 3
+2021-09-27 16:09:26.442  INFO 53436 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2021-09-27 16:09:26.442  INFO 53436 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1632739166442, current=UP, previous=STARTING]
+2021-09-27 16:09:26.442  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097: registering service...
+2021-09-27 16:09:26.456  INFO 53436 --- [restartedMain] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 9097
+2021-09-27 16:09:26.457  INFO 53436 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9097
+2021-09-27 16:09:26.459  INFO 53436 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/Anonymous:api-gateway:9097 - registration status: 204
+2021-09-27 16:09:26.876  INFO 53436 --- [restartedMain] c.d.G.GatewayServiceApplication          : Started GatewayServiceApplication in 2.013 seconds (JVM running for 303.502)
+2021-09-27 16:09:26.879  INFO 53436 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
