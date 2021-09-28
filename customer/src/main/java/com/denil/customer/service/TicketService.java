@@ -31,17 +31,42 @@ public class TicketService {
 		//return "from booked Ticket";
 	}
 	@SuppressWarnings("deprecation")
-	public String BookTicket(Ticket ts,int flightId) {
-		ts.setPnr(ts.getCustomerId()+ts.getSource()+ts.getDestination()+ts.getScheduledStartTime().getDay()+ts.getScheduledStartTime().getMonth()+ts.getScheduledStartTime().getYear()+ts.getScheduledStartTime().getHours()+ts.getScheduledStartTime().getMinutes());
-		  tr.save(ts);
-		  HttpHeaders httpHeaders = new HttpHeaders();
-	        httpHeaders.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
-	        HttpEntity<Ticket> entity = new HttpEntity<>(ts, httpHeaders);
-	        return restTemplate.exchange("http://localhost:9091/flightservice/ticketBooked/updateRemaining/flightId/"+flightId+"/decrementBy/"+1, HttpMethod.PUT, entity, String.class).getBody();
-	   
-	      
+	public String BookTicket(List<Ticket> listTicket,int flightId) {
+		Ticket ts1=listTicket.get(0);
+		  HttpHeaders httpHeaders1 = new HttpHeaders();
+	        httpHeaders1.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+	        HttpEntity<Ticket> entity1 = new HttpEntity<>(ts1, httpHeaders1);
+        //check flight available or not if not respond back with message flight not available
+		      String flightSeatCheck=  restTemplate.exchange("http://localhost:9091/flightservice/flight/src/flightId/"+flightId+"/seat/"+(listTicket.size()+1), HttpMethod.GET, entity1, String.class).getBody();
+				  
+				   
+					  try {
+								  int k= Integer.parseInt(flightSeatCheck);
+							  if(k<listTicket.size())
+								  return "Only "+k+" flight tickets remaining check any other flight";
+					  	}catch(Exception e) {
+					 if(flightSeatCheck.compareTo("flight details not found")==0) {
+						  return "flight details not found";
+					  } 
+				 }
+		for(int i=0;i<listTicket.size();i++) {
+			Ticket ts=listTicket.get(i);
+			ts.setPnr(ts.getCustomerId()+ts.getSource()+ts.getDestination()+ts.getScheduledStartTime().getDay()+ts.getScheduledStartTime().getMonth()+ts.getScheduledStartTime().getYear()+ts.getScheduledStartTime().getHours()+ts.getScheduledStartTime().getMinutes());
+			  tr.save(ts);
+			
+		
+					   
+		      
+		  
+		}
+		 
+	     
+		  //after ticket booked reduce the number of remaining ticket in particular flight
+        restTemplate.exchange("http://localhost:9091/flightservice/ticketBooked/updateRemaining/flightId/"+flightId+"/decrementBy/"+(-listTicket.size()), HttpMethod.PUT, entity1, String.class).getBody();
+  
+		    
 	      //return restTemplate.exchange("http://localhost:8080/products", HttpMethod.GET, entity, String.class).getBody();
 	   
-		//return "Ticket booked";
+		return "Ticket booked";
 	}
 }

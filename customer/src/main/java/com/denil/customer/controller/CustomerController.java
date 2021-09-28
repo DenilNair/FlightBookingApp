@@ -38,10 +38,12 @@ public class CustomerController {
 		//return "from booked Ticket";
 	}
 	@PostMapping("/bookticket/flightId/{flightId}")
-	public String bookTicket(@RequestBody Ticket t1, @PathVariable int flightId) {
-		ts.BookTicket(t1,flightId);
-		return "Ticket Booked";
+	public String bookTicket(@RequestBody List<Ticket> t1, @PathVariable int flightId) {
+		String message=ts.BookTicket(t1,flightId);
+		return message;
 	}
+	
+	
 	
 	@DeleteMapping("/cancel-ticket")
 	public String CancelTicket(@PathVariable String pnr) {

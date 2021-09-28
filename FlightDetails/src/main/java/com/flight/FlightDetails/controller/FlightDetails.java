@@ -72,9 +72,24 @@ public class FlightDetails {
 		temp.setAvailableSeat(temp.getAvailableSeat()+decrement);
 		fs.flightSeatUpdate(temp);
 	}
-	else {return " flight details not found";}
+	else {return "flight details not found";}
 	
 		return "updated with seat number "+f1.get().getAvailableSeat()+decrement;
 		
+	}
+	
+	
+	
+	//check flight details for seat avalability 
+	@GetMapping("/flight/src/flightId/{flightId}/seat/{seat}")
+	public String checkFlightAvailability(@PathVariable int  flightId,@PathVariable String seat) throws ParseException{
+		Optional<Flight> f1=fs.getFlightDetails(flightId);
+		if(f1.isPresent()) {
+			Flight temp=f1.get();
+			return String.valueOf(temp.getAvailableSeat());
+		}
+		else {return "flight details not found";}
+		
+			//return "updated with seat number "+f1.get().getAvailableSeat()+;
 	}
 }
