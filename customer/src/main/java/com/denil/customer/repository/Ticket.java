@@ -24,13 +24,33 @@ public class Ticket {
 	private String source;
 	private String destination;
 	private Date scheduledStartTime;
-
+	private String passangerName;
+	private int passengerAge;
+	private int bookingId;
+	public int getBookingId() {
+		return bookingId;
+	}
+	public void setBookingId(int bookingId) {
+		this.bookingId = bookingId;
+	}
+	public String getPassangerName() {
+		return passangerName;
+	}
+	public void setPassangerName(String passangerName) {
+		this.passangerName = passangerName;
+	}
+	public int getPassengerAge() {
+		return passengerAge;
+	}
+	public void setPassengerAge(int passengerAge) {
+		this.passengerAge = passengerAge;
+	}
 	public Ticket() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
 	public Ticket(int customerId, String source, String destination, Date scheduledStartTime, Date scheduledEndTime,
-			Date actualStartTime, Date actualEndTime, Long ticketFare, String status, String flightNo,String pnr) {
+			Date actualStartTime, Date actualEndTime, Long ticketFare, String status, String flightNo,String pnr,String passangerName,int age,int bookingId) {
 		super();
 		this.customerId = customerId;
 		this.source = source;
@@ -43,6 +63,9 @@ public class Ticket {
 		this.status = status;
 		this.flightNo=flightNo;
 		this.pnr = pnr;
+		this.passengerAge=age;
+		this.passangerName=passangerName;
+		this.bookingId=bookingId;
 		
 	}
 	private Date scheduledEndTime;

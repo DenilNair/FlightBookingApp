@@ -22,7 +22,7 @@ import com.flight.FlightDetails.repository.Flight;
 import com.flight.FlightDetails.service.FlightService;
 
 @RestController
-@CrossOrigin
+
 
 @RequestMapping("/flightservice")
 public class FlightDetails {
@@ -42,7 +42,17 @@ public class FlightDetails {
 	@GetMapping("/flight/src/{source}/dest/{desti}/date/{date}")
 	public List<Flight> getAllFlightSourceDestination(@PathVariable String source,@PathVariable String desti,@PathVariable String date) throws ParseException{
 		System.out.println(" DATEEEEEEEE"+date);
-		return fs.getAllFlightSourceDestination(source, desti,date);
+		return fs.getAllFlightSourceDestination(source.toUpperCase(), desti.toUpperCase(),date);
+	}
+	@GetMapping("/flight/src/{source}")
+	public List<Flight> getAllFlightBasedOnDestination(@PathVariable String source,@PathVariable String date) throws ParseException{
+		System.out.println(" DATEEEEEEEE"+date);
+		return fs.getAllFlightBasedOnSource(source.toUpperCase(),date);
+	}
+	@GetMapping("/flight/dest/{desti}/date/{date}")
+	public List<Flight> getAllFlightBasedOnSource(@PathVariable String desti,@PathVariable String date) throws ParseException{
+		System.out.println(" DATEEEEEEEE"+date);
+		return fs.getAllFlightBasedOnDestination( desti.toUpperCase(),date);
 	}
 	@PostMapping("/flight/add")
 	public String addFlightDetails(@RequestBody Flight f1,@RequestHeader (value= "userrole", required=false)Optional<String>  userrole)
@@ -88,7 +98,9 @@ public class FlightDetails {
 			Flight temp=f1.get();
 			return String.valueOf(temp.getAvailableSeat());
 		}
-		else {return "flight details not found";}
+		else {
+			return "flight details not found";
+			}
 		
 			//return "updated with seat number "+f1.get().getAvailableSeat()+;
 	}

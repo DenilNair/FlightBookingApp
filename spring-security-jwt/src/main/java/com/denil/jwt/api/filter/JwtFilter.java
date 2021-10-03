@@ -32,27 +32,44 @@ try {      String authorizationHeader = httpServletRequest.getHeader("Authorizat
 
 String token = null;
 String userName = null;
-
+String loginOrSignup="signup";
 if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
     token = authorizationHeader.substring(7);
+    loginOrSignup="login";
     userName = jwtUtil.extractUsername(token);
 }
 
 if (userName != null && SecurityContextHolder.getContext().getAuthentication() == null) {
+if(!userName.equals("Token error")) { UserDetails userDetails = service.loadUserByUsername(userName);
 
-    UserDetails userDetails = service.loadUserByUsername(userName);
+if (jwtUtil.validateToken(token, userDetails)) {
 
-    if (jwtUtil.validateToken(token, userDetails)) {
-
-        UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
-                new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
-        usernamePasswordAuthenticationToken
-                .setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
-        SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
-    }
+    UsernamePasswordAuthenticationToken usernamePasswordAuthenticationToken =
+            new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
+    usernamePasswordAuthenticationToken
+            .setDetails(new WebAuthenticationDetailsSource().buildDetails(httpServletRequest));
+    SecurityContextHolder.getContext().setAuthentication(usernamePasswordAuthenticationToken);
 }
-httpServletResponse.addHeader("Exception caught", "invalid token");
-filterChain.doFilter(httpServletRequest, httpServletResponse);
+}
+   
+}
+
+	if((loginOrSignup.equals("login"))) {
+		if(userName==null) {
+			httpServletResponse.addHeader("Exception caught", "invalid token");
+			httpServletResponse.getWriter().write("Invalid Token");
+		}
+		else if (userName.equals("Token error")) {
+			httpServletResponse.addHeader("Exception caught", "invalid token");
+			httpServletResponse.getWriter().write("Invalid Token");	
+		}
+		else {
+			filterChain.doFilter(httpServletRequest, httpServletResponse);
+		}
+		}
+else {
+	filterChain.doFilter(httpServletRequest, httpServletResponse);
+}
 }
 catch(Exception e ) {
 	System.out.println("Exception caught"+e);}

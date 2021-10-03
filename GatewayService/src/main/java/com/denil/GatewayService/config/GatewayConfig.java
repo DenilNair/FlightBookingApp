@@ -34,7 +34,7 @@ public class GatewayConfig {
 				
 				.route(p->p
 						.path("/flightservice/**")
-						.uri("lb://FLIGHTDETAILS-SERVICE"))
+						.uri("lb://FLIGHT-LISTING"))
 				
 				.build();
 	}

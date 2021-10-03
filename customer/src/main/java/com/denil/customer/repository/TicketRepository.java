@@ -11,4 +11,9 @@ import org.springframework.stereotype.Repository;
 @Transactional
 public interface TicketRepository extends JpaRepository<Ticket, Integer> {
 List<Ticket> findByPnr(String pnr);
+List<Ticket> findByCustomerIdAndFlightNoAndBookingId(int custId,String flightNo,int bookingId);
+
+List<Ticket> findByCustomerId(int id);
+
+List<Ticket> findByBookingId(int id);
 }

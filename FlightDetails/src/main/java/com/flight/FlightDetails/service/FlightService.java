@@ -26,7 +26,7 @@ public class FlightService {
 	return l1;
 	}
 	public List<Flight>  getAllFlightSourceDestination(String src,String des,String date) throws ParseException {
-		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss");//15-Sep-2021 14:52:00
 		Date d1 = formatter.parse(date);
 		Date d2= d1;
 		 // Substract 2 hour from the current time
@@ -46,9 +46,54 @@ public class FlightService {
 		System.out.println("ENd time "+d2);
 		return l1;
 	}
+	
+	public List<Flight>  getAllFlightBasedOnDestination(String des,String date) throws ParseException {
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss");//15-Sep-2021 14:52:00
+		Date d1 = formatter.parse(date);
+		Date d2= d1;
+		 // Substract 2 hour from the current time
+		
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(d1);
+        calendar.add(Calendar.HOUR, 23);
+ 
+        // Add 30 minutes to the calendar time
+        calendar.add(Calendar.MINUTE, 59);
+ 
+        // Add 300 seconds to the calendar time
+        calendar.add(Calendar.SECOND, 59);
+        d2=calendar.getTime();
+		List<Flight>l1=	flightRep.findByDestinationAndScheduledStartTimeBetween(des,d1,d2);
+		System.out.println("Start time "+d1);
+		System.out.println("ENd time "+d2);
+		return l1;
+	}
+	
+	public List<Flight>  getAllFlightBasedOnSource(String src,String date) throws ParseException {
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MMM-yyyy hh:mm:ss");//15-Sep-2021 14:52:00
+		Date d1 = formatter.parse(date);
+		Date d2= d1;
+		 // Substract 2 hour from the current time
+		
+		Calendar calendar = Calendar.getInstance();
+		calendar.setTime(d1);
+        calendar.add(Calendar.HOUR, 23);
+ 
+        // Add 30 minutes to the calendar time
+        calendar.add(Calendar.MINUTE, 59);
+ 
+        // Add 300 seconds to the calendar time
+        calendar.add(Calendar.SECOND, 59);
+        d2=calendar.getTime();
+		List<Flight>l1=	flightRep.findBySourceAndScheduledStartTimeBetween(src,d1,d2);
+		System.out.println("Start time "+d1);
+		System.out.println("ENd time "+d2);
+		return l1;
+	}
 	public void addNewFleet(Flight f1)
 	{
 	flightRep.save(f1);	
+	
 	}
 	public boolean getDuplicateFlightDetails(Flight f) {
 		Boolean  f1=flightRep.findDuplcateFlight(f);

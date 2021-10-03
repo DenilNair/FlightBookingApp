@@ -14,7 +14,7 @@ import java.util.function.Function;
 @Service
 public class JwtUtil {
 
-    private String secret = "javatechie";
+    private String secret = "denil";
 
     public String extractUsername(String token) {
     	try {
@@ -23,7 +23,7 @@ public class JwtUtil {
         
     	}
     	catch(Exception e) {
-    		return null;    	}
+    		return "Token error";    	}
     }
 
     public Date extractExpiration(String token) {

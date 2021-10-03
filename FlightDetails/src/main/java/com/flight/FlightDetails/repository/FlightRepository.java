@@ -16,6 +16,8 @@ public interface FlightRepository extends JpaRepository<Flight, Integer>,FlightC
 List<Flight> findBySourceAndDestinationAndFlightNoAndScheduledStartTimeBetween(String src,String des,String flightNo,Date from,Date to);
 
 List<Flight> findBySourceAndDestinationAndScheduledStartTimeBetween(String src,String des,Date from,Date to);
+List<Flight> findBySourceAndScheduledStartTimeBetween(String des,Date from,Date to);
+List<Flight> findByDestinationAndScheduledStartTimeBetween(String src,Date from,Date to);
 	 //@Query("SELECT p FROM itemDetails p WHERE LOWER(p.StockAvailable) = LOWER(:StockAvailable)")
 	List<Flight> findByFlightNo(String number);
 

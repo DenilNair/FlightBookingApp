@@ -19,7 +19,7 @@ import com.denil.aircraft.repository.Aircrafts;
 import com.denil.aircraft.service.AircraftService;
 
 @RestController
-@CrossOrigin
+
 @RequestMapping("/aircraft")
 public class AircraftController {
 

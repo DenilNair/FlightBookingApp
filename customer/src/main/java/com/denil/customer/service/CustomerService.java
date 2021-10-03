@@ -41,7 +41,10 @@ public String NewProfile(Customer c1) {
 	return "profile added";
 }
 public Customer findbyCustomerId(int id) {
-return cr.findByCustomerId(id).get(0)	;
+return cr.findByCustomerId(id)	;
 }
+
+
+
 	
 }
