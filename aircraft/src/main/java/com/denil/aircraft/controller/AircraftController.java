@@ -44,7 +44,12 @@ public class AircraftController {
 	}
 	@GetMapping("/name/{name}")
 	public List<Aircrafts> getAircraftBasedOnCompany(@PathVariable String name) {
-		return as.getAircraftByName(name);
+		List<Aircrafts>  temp= as.getAircraftByName(name);
+		return temp;
+	}
+	@GetMapping("/name/{name}/flightId/{id}")
+	public List<Aircrafts> getAircraftBasedOnCompanyAndCode(@PathVariable String name,@PathVariable int id) {
+		return as.findByAircraftCodeAndId(name,id);
 	}
 	/*
 	  @PutMapping("/employees/{id}")

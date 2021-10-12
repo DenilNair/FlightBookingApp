@@ -38,9 +38,17 @@ public class CustomerController {
 	RestTemplate restTemplate;
 
 	@GetMapping("/profile")
-	public String profile() {
-		cs.profileData();
-		return "from profile";
+	public Customer profile(@RequestHeader(value = "Authorization") String authorizationHeader) {
+		
+		HttpHeaders httpHeaders1 = new HttpHeaders();
+		httpHeaders1.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
+		httpHeaders1.set("Authorization", authorizationHeader);
+		HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
+		ResponseEntity<String> result = restTemplate.exchange("http://localhost:9192/userdetails", HttpMethod.GET, entity1, String.class);
+		String tokenChecktemp = result.getBody().split(",")[0];
+		int userId=Integer.parseInt(tokenChecktemp);
+		return cs.profileData(userId);
+		//return "from profile";
 	}
 
 	@GetMapping("/getTicket/pnr/{pnr}")
@@ -59,12 +67,13 @@ public class CustomerController {
 		HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
 		// check flight available or not if not respond back with message flight not
 		// available
-		String temp = restTemplate.exchange("http://localhost:9192/", HttpMethod.GET, entity1, String.class).toString();
+		String temp = restTemplate.exchange("http://localhost:9192/userdetails", HttpMethod.GET, entity1, String.class).toString();
 		String tokenChecktemp = temp.split(",")[1];
 		if (tokenChecktemp.equals("Invalid Token")) {
 			return tokenChecktemp;
 		} else {
-			String message = ts.BookTicket(t1, flightId);
+			int customerId= Integer.parseInt(temp.split(",")[1]);
+			String message = ts.BookTicket(t1, flightId,customerId);
 			return message;
 		}
 
@@ -97,7 +106,7 @@ public class CustomerController {
 				HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
 				// check flight available or not if not respond back with message flight not
 				// available
-				String temp = restTemplate.exchange("http://localhost:9192/", HttpMethod.GET, entity1, String.class).toString();
+				String temp = restTemplate.exchange("http://localhost:9192/userdetails", HttpMethod.GET, entity1, String.class).toString();
 				String tokenChecktemp = temp.split(",")[1];
 				if (tokenChecktemp.equals("Invalid Token")) {
 					return null;

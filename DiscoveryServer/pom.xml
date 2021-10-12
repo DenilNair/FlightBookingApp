@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.denil</groupId>
-	<artifactId>DiscoveryServer</artifactId>
+	<artifactId>discoveryserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DiscoveryServer</name>
 	<description>Demo project for Spring Boot</description>
@@ -53,6 +53,16 @@
     <groupId>org.springframework.cloud</groupId>
     <artifactId>spring-cloud-starter-config</artifactId>
     <version>3.0.4</version>
+</dependency>
+
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aop</artifactId>
+   </dependency>
+<dependency>
+    <groupId>org.springframework.retry</groupId>
+    <artifactId>spring-retry</artifactId>
+  
 </dependency>
 	</dependencies>
 	<dependencyManagement>

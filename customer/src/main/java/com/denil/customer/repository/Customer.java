@@ -14,7 +14,14 @@ public class Customer {
  @Id
  @GeneratedValue(strategy = GenerationType.AUTO)
  private int customerId;
- private String email;
+ private int userId;
+ public int getUserId() {
+	return userId;
+}
+public void setUserId(int userId) {
+	this.userId = userId;
+}
+private String email;
 public String getName() {
 	return name;
 }

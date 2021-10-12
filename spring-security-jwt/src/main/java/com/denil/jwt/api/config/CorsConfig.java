@@ -15,4 +15,6 @@ public class CorsConfig extends WebMvcConfigurerAdapter {
                 .allowedMethods("HEAD", "GET", "PUT", "POST", "DELETE", "PATCH");
         System.out.println("CORS from method");
     }
+    
+    
 }

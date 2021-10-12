@@ -45,12 +45,16 @@ public class FlightDetails {
 		return fs.getAllFlightSourceDestination(source.toUpperCase(), desti.toUpperCase(),date);
 	}
 	@GetMapping("/flight/src/{source}")
-	public List<Flight> getAllFlightBasedOnDestination(@PathVariable String source,@PathVariable String date) throws ParseException{
-		System.out.println(" DATEEEEEEEE"+date);
-		return fs.getAllFlightBasedOnSource(source.toUpperCase(),date);
+	public List<Flight> getAllFlightBasedOnOnlySource(@PathVariable String source) throws ParseException{
+		return fs.getAllFlightBasedOnOnlySource(source.toUpperCase());
+	}
+	
+	@GetMapping("/flight/dest/{destination}")
+	public List<Flight> getAllFlightBasedOnOnlyDestination(@PathVariable String dest) throws ParseException{
+		return fs.getAllFlightBasedOnOnlyDestination(dest.toUpperCase());
 	}
 	@GetMapping("/flight/dest/{desti}/date/{date}")
-	public List<Flight> getAllFlightBasedOnSource(@PathVariable String desti,@PathVariable String date) throws ParseException{
+	public List<Flight> getAllFlightBasedOnDestination(@PathVariable String desti,@PathVariable String date) throws ParseException{
 		System.out.println(" DATEEEEEEEE"+date);
 		return fs.getAllFlightBasedOnDestination( desti.toUpperCase(),date);
 	}
@@ -103,5 +107,9 @@ public class FlightDetails {
 			}
 		
 			//return "updated with seat number "+f1.get().getAvailableSeat()+;
+	}
+	@GetMapping("/flight/upcoming")
+	public List<Flight> getUpcomingFLight() {
+		return fs.getAllUpcomingFlight();
 	}
 }

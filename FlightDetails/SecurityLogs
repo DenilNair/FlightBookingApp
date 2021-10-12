@@ -1,0 +1,38 @@
+2021-10-10 10:11:37.621  INFO 3276 --- [restartedMain] c.f.F.FlightDetailsApplication           : Starting FlightDetailsApplication using Java 15.0.1 on Anonymous with PID 3276 (D:\spring-boot\Flight_Service\FlightDetails\target\classes started by DELL in D:\spring-boot\Flight_Service\FlightDetails)
+2021-10-10 10:11:37.629  INFO 3276 --- [restartedMain] c.f.F.FlightDetailsApplication           : No active profile set, falling back to default profiles: default
+2021-10-10 10:11:37.692  INFO 3276 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9085
+2021-10-10 10:11:37.693  WARN 3276 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Could not locate PropertySource ([ConfigServerConfigDataResource@2e624fdf uris = array<String>['http://localhost:9085'], optional = true, profiles = list['default']]): None of labels [] found
+2021-10-10 10:11:38.122  INFO 3276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-10 10:11:38.123  INFO 3276 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-10-10 10:11:38.983  INFO 3276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-10 10:11:39.152  INFO 3276 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 160 ms. Found 1 JPA repository interfaces.
+2021-10-10 10:11:39.419  INFO 3276 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=892ee57c-1488-3fbc-a23d-e5cc1204acbd
+2021-10-10 10:11:40.528  INFO 3276 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-10-10 10:11:40.538  INFO 3276 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-10 10:11:40.538  INFO 3276 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-10 10:11:40.688  INFO 3276 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-10 10:11:40.688  INFO 3276 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2564 ms
+2021-10-10 10:11:40.767  WARN 3276 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2021-10-10 10:11:40.770  INFO 3276 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-10-10 10:11:40.797  INFO 3276 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-10-10 10:11:40.821 ERROR 3276 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

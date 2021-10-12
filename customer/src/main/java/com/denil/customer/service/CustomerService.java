@@ -23,8 +23,9 @@ public class CustomerService {
 	@Autowired
 	   RestTemplate restTemplate;
 	
-	public String profileData() {
-		return "from profile";
+	public Customer profileData(int userId) {
+		return cr.findByUserId(userId);
+		//return "from profile";
 	}
 	
 	public List<Ticket> BookedTicketDetails(String pnr) {

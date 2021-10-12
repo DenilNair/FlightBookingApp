@@ -49,7 +49,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
     	 http.cors().disable();
     	 System.out.println("CORS method 33");
-        http.csrf().disable().authorizeRequests().antMatchers("/authenticate")
+        http.csrf().disable().authorizeRequests().antMatchers("/authenticate","/signup")
         .permitAll().antMatchers(HttpMethod.OPTIONS,"/**")
                 .permitAll().anyRequest().authenticated()
                 .and().exceptionHandling().and().sessionManagement()

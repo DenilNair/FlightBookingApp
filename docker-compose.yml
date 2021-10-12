@@ -1,0 +1,25 @@
+version: "3"
+services:
+  consumer:
+    container_name: gateway
+    image: denil4docker/eureka
+    networks:
+      - consumer-producer
+    ports:
+      - "8761:8761"
+    depends_on:
+      - producer
+ 
+  producer:
+    container_name: config
+    image: denil4docker/configserver
+    ports:
+      - "9085:9085"
+    networks:
+      - consumer-producer 
+
+networks:
+  consumer-producer:
+    name: custom_network
+    driver: bridge
+

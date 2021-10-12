@@ -40,7 +40,9 @@ if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
 }
 
 if (userName != null && SecurityContextHolder.getContext().getAuthentication() == null) {
-if(!userName.equals("Token error")) { UserDetails userDetails = service.loadUserByUsername(userName);
+if(!userName.equals("Token error")) {
+	
+	UserDetails userDetails = service.loadUserByUsername(userName);
 
 if (jwtUtil.validateToken(token, userDetails)) {
 

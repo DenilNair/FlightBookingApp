@@ -7,6 +7,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 @Entity
 public class Ticket {
 
@@ -23,10 +25,25 @@ public class Ticket {
 	private int customerId;
 	private String source;
 	private String destination;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MMM-yyyy HH:mm:ss")
 	private Date scheduledStartTime;
 	private String passangerName;
 	private int passengerAge;
 	private int bookingId;
+	private String gender;
+	private String meal;
+	public String getMeal() {
+		return meal;
+	}
+	public void setMeal(String meal) {
+		this.meal = meal;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
 	public int getBookingId() {
 		return bookingId;
 	}
@@ -50,7 +67,7 @@ public class Ticket {
 		// TODO Auto-generated constructor stub
 	}
 	public Ticket(int customerId, String source, String destination, Date scheduledStartTime, Date scheduledEndTime,
-			Date actualStartTime, Date actualEndTime, Long ticketFare, String status, String flightNo,String pnr,String passangerName,int age,int bookingId) {
+			Date actualStartTime, Date actualEndTime, Long ticketFare, String status, String flightNo,String pnr,String passangerName,int age,int bookingId,String gender,String meal) {
 		super();
 		this.customerId = customerId;
 		this.source = source;
@@ -66,10 +83,15 @@ public class Ticket {
 		this.passengerAge=age;
 		this.passangerName=passangerName;
 		this.bookingId=bookingId;
+		this.gender=gender;
+		this.meal=meal;
 		
 	}
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MMM-yyyy HH:mm:ss")
 	private Date scheduledEndTime;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MMM-yyyy HH:mm:ss")
 	private Date actualStartTime;
+	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MMM-yyyy HH:mm:ss")
 	private Date actualEndTime;
 	private Long ticketFare;
 	private String status;

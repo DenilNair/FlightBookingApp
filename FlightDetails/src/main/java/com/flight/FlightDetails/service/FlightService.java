@@ -121,5 +121,26 @@ public class FlightService {
 		flightRep.save(updatedFlight);
 	}
 	
+	public List<Flight>  getAllFlightBasedOnOnlySource(String src) throws ParseException {
+		
+		List<Flight>l1=	flightRep.findBySource(src);
+		
+		return l1;
+	}
+	
+	public List<Flight>  getAllFlightBasedOnOnlyDestination(String dest) throws ParseException {
+		
+		List<Flight>l1=	flightRep.findByDestination(dest);
+		
+		return l1;
+	}	
+	public List<Flight> getAllUpcomingFlight() {
+		Date d1=new Date();
+		SimpleDateFormat formatter = new SimpleDateFormat("dd MMM yyyy HH:mm:ss");  
+		@SuppressWarnings("deprecation")
+		Date currDate=new Date(formatter.format(d1));
+		List<Flight>l1=	flightRep.findByScheduledStartTimeGreaterThan(currDate);
+		return l1;
+		}
 	
 }

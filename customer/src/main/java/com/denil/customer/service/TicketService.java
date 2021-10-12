@@ -39,9 +39,10 @@ public class TicketService {
 	}
 
 	@SuppressWarnings("deprecation")
-	public String BookTicket(List<Ticket> listTicket, int flightId) {
+	public String BookTicket(List<Ticket> listTicket, int flightId,int customerId) {
 		Ticket ts1 = listTicket.get(0);
 
+		ts1.setCustomerId(customerId);
 		HttpHeaders httpHeaders1 = new HttpHeaders();
 		httpHeaders1.setAccept(Collections.singletonList(MediaType.APPLICATION_JSON));
 		HttpEntity<Ticket> entity1 = new HttpEntity<>(ts1, httpHeaders1);
@@ -73,14 +74,18 @@ public class TicketService {
 
 			Ticket ts = listTicket.get(i);
 			ts.setBookingId(bookingId);
+			/*
 			List<Ticket> temp = tr.findByCustomerIdAndFlightNoAndBookingId(ts.getCustomerId(),
 					ts.getFlightNo(), bookingId);
 			if (temp.size() > 0) {
 				return "Ticket Already Booked for same passanger. Cancel it to Book Again";
-			}
+			}*/
 			ts.setPnr(ts.getBookingId() + ts.getSource() + ts.getDestination() + ts.getScheduledStartTime().getDay()
 					+ ts.getScheduledStartTime().getMonth() + ts.getScheduledStartTime().getYear()
 					+ ts.getScheduledStartTime().getHours() + ts.getScheduledStartTime().getMinutes());
+			if(ts.getMeal()=="" ) {
+				ts.setMeal("No");
+			}
 			tr.save(ts);
 
 		}

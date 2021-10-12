@@ -20,5 +20,9 @@ List<Flight> findBySourceAndScheduledStartTimeBetween(String des,Date from,Date 
 List<Flight> findByDestinationAndScheduledStartTimeBetween(String src,Date from,Date to);
 	 //@Query("SELECT p FROM itemDetails p WHERE LOWER(p.StockAvailable) = LOWER(:StockAvailable)")
 	List<Flight> findByFlightNo(String number);
+	
+	List<Flight> findBySource(String src);
+	List<Flight> findByDestination(String dest);
+	List<Flight> findByScheduledStartTimeGreaterThan(Date currentDate);
 
 }

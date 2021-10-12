@@ -7,7 +7,8 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface AircraftRepository extends JpaRepository<Aircrafts, Integer>{
-List<Aircrafts> findByAircraftCode(String name);
+List<Aircrafts> findByCompanyName(String name);
 List<Aircrafts> findById(int id);
 void deleteById(int id);
+List<Aircrafts> findByCompanyNameAndId(String name,int id);
 }

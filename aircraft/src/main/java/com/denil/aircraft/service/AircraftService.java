@@ -23,11 +23,15 @@ public class AircraftService {
 	}
 	
 	public List<Aircrafts> getAircraftByName(String name){
-		return ar.findByAircraftCode(name);
+		return ar.findByCompanyName(name);
 	}
 	public String update(int id,Aircrafts a) {
 		
 		ar.save(a);
 		return "addAircraft";
+	}
+	
+	public List<Aircrafts> findByAircraftCodeAndId(String name,int id){
+		return ar.findByCompanyNameAndId(name, id);
 	}
 }

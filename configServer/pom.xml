@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.denil.config</groupId>
-	<artifactId>configServer</artifactId>
+	<artifactId>configserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>configServer</name>
 	<description>Demo project for Spring Boot</description>
@@ -34,6 +34,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+    <groupId>org.springdoc</groupId>
+    <artifactId>springdoc-openapi-ui</artifactId>
+    <version>1.5.2</version>
+</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

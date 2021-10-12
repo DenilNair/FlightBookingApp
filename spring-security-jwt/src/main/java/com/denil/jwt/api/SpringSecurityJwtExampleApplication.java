@@ -3,9 +3,11 @@ package com.denil.jwt.api;
 import com.denil.jwt.api.entity.User;
 import com.denil.jwt.api.repository.UserRepository;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
 
 import java.util.stream.Stream;
 
@@ -46,5 +48,5 @@ public class SpringSecurityJwtExampleApplication {
 		};
 	}*/
     
- 
+
 }
