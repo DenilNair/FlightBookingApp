@@ -1,22 +1,63 @@
 version: "3"
 services:
-  consumer:
-    container_name: gateway
-    image: denil4docker/eureka
+  flightservice:
+    container_name: flight
+    image: flightdetails:0.0.1-SNAPSHOT
+    environment: 
+    # Important for clients to register with eureka
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
     networks:
       - consumer-producer
     ports:
-      - "8761:8761"
+      - "9091:9091"
     depends_on:
-      - producer
+      - discovery-service
  
-  producer:
-    container_name: config
-    image: denil4docker/configserver
+  discovery-service:
+    container_name: discoveryservice
+    image: discoveryserver:0.0.1-SNAPSHOT
     ports:
-      - "9085:9085"
+      - "8761:8761"
     networks:
       - consumer-producer 
+  customer:
+    container_name: customer
+    image: customer:0.0.1-SNAPSHOT
+    environment: 
+    # Important for clients to register with eureka
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+    ports:
+      - "9092:9092"
+    depends_on:
+      - discovery-service
+    networks:
+      - consumer-producer 
+  
+  aircraft:
+    container_name: aircraft
+    image: aircraft:0.0.1-SNAPSHOT
+    environment: 
+    # Important for clients to register with eureka
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+    ports:
+      - "9093:9093"
+    depends_on:
+      - discovery-service
+    networks:
+      - consumer-producer 
+      
+  gateway:
+    container_name: gateway
+    image: gatewayservice:0.0.1-SNAPSHOT
+    environment: 
+    # Important for clients to register with eureka
+      - eureka.client.serviceUrl.defaultZone=http://discovery-service:8761/eureka/
+    ports:
+      - "9097:9097"
+    depends_on:
+      - discovery-service
+    networks:
+      - consumer-producer
 
 networks:
   consumer-producer:
