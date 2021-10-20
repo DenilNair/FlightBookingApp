@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.denil.jwt.api.SpringSecurityJwtExampleApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.029 s - in com.denil.jwt.api.SpringSecurityJwtExampleApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.74 s - in com.denil.jwt.api.SpringSecurityJwtExampleApplicationTests

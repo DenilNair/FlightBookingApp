@@ -1,6 +1,7 @@
 package com.denil.customer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
@@ -36,6 +37,9 @@ public class CustomerController {
 	TicketService ts;
 	@Autowired
 	RestTemplate restTemplate;
+	
+	@Value("${auth.service.uri}")
+	String authserviceuri;
 
 	@GetMapping("/profile")
 	public Customer profile(@RequestHeader(value = "Authorization") String authorizationHeader) {
@@ -67,7 +71,7 @@ public class CustomerController {
 		HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
 		// check flight available or not if not respond back with message flight not
 		// available
-		String temp = restTemplate.exchange("http://localhost:9192/userdetails", HttpMethod.GET, entity1, String.class).toString();
+		String temp = restTemplate.exchange(authserviceuri+"/userdetails", HttpMethod.GET, entity1, String.class).toString();
 		String tokenChecktemp = temp.split(",")[1];
 		if (tokenChecktemp.equals("Invalid Token")) {
 			return tokenChecktemp;
@@ -106,7 +110,7 @@ public class CustomerController {
 				HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
 				// check flight available or not if not respond back with message flight not
 				// available
-				String temp = restTemplate.exchange("http://localhost:9192/userdetails", HttpMethod.GET, entity1, String.class).toString();
+				String temp = restTemplate.exchange(authserviceuri+"/userdetails", HttpMethod.GET, entity1, String.class).toString();
 				String tokenChecktemp = temp.split(",")[1];
 				if (tokenChecktemp.equals("Invalid Token")) {
 					return null;
@@ -125,7 +129,7 @@ public class CustomerController {
 		HttpEntity<String> entity1 = new HttpEntity<String>(httpHeaders1);
 		// check flight available or not if not respond back with message flight not
 		// available
-		String temp = restTemplate.exchange("http://localhost:9192/", HttpMethod.GET, entity1, String.class).toString();
+		String temp = restTemplate.exchange(authserviceuri+"/", HttpMethod.GET, entity1, String.class).toString();
 		String tokenChecktemp = temp.split(",")[1];
 		if (tokenChecktemp.equals("Invalid Token")) {
 			return null;

@@ -143,4 +143,10 @@ public class FlightService {
 		return l1;
 		}
 	
+	
+	public String deleteFlightDetails(Flight flight) {
+		flightRep.save(flight);
+		return "Flight Deleted";
+	}
+	
 }

@@ -112,4 +112,14 @@ public class FlightDetails {
 	public List<Flight> getUpcomingFLight() {
 		return fs.getAllUpcomingFlight();
 	}
+	@PutMapping("/deleteFlight/flightId/{flightId}/status/{status}")
+	public String deleteFlightRemainingTicket(@RequestBody  Flight f1){
+		return fs.deleteFlightDetails(f1);
+	
+	
+	
+	//	return "flight   deleted ";
+		
+	}
+	
 }

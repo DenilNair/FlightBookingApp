@@ -1,0 +1,228 @@
+2021-10-18 09:36:56.965  INFO 21120 --- [restartedMain] com.denil.aircraft.AircraftApplication   : Starting AircraftApplication using Java 15.0.1 on Anonymous with PID 21120 (D:\spring-boot\Flight_Service\aircraft\target\classes started by DELL in D:\spring-boot\Flight_Service\aircraft)
+2021-10-18 09:36:56.971  INFO 21120 --- [restartedMain] com.denil.aircraft.AircraftApplication   : No active profile set, falling back to default profiles: default
+2021-10-18 09:36:57.056  INFO 21120 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9085
+2021-10-18 09:36:57.056  INFO 21120 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Located environment: name=aircraft-service, profiles=[default], label=null, version=ec534b47557c20d6ec55821470e070f3b3e74d2e, state=null
+2021-10-18 09:36:57.060  INFO 21120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-18 09:36:57.061  INFO 21120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-10-18 09:36:58.602  INFO 21120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-18 09:36:58.871  INFO 21120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 257 ms. Found 1 JPA repository interfaces.
+2021-10-18 09:36:59.247  INFO 21120 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f846cb09-927c-3311-92c5-f026ecc98f67
+2021-10-18 09:37:00.422  INFO 21120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-10-18 09:37:00.439  INFO 21120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-18 09:37:00.439  INFO 21120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-18 09:37:00.683  INFO 21120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-18 09:37:00.684  INFO 21120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3623 ms
+2021-10-18 09:37:01.090  INFO 21120 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-18 09:37:01.170  INFO 21120 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-18 09:37:01.385  INFO 21120 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-18 09:37:01.530  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-18 09:37:01.536  WARN 21120 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-18 09:37:01.907  INFO 21120 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-18 09:37:01.927  INFO 21120 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-10-18 09:37:02.828  INFO 21120 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-18 09:37:02.837  INFO 21120 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-18 09:37:03.334  WARN 21120 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 09:37:04.485  WARN 21120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-10-18 09:37:04.765  INFO 21120 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 09:37:04.766  INFO 21120 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-18 09:37:04.779  INFO 21120 --- [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-18 09:37:04.803  INFO 21120 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 36 ms
+2021-10-18 09:37:04.807  INFO 21120 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-10-18 09:37:04.956  WARN 21120 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-18 09:37:05.035  INFO 21120 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-18 09:37:05.106  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-18 09:37:05.112  INFO 21120 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 09:37:05.152  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-18 09:37:05.152  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-18 09:37:05.153  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-18 09:37:05.153  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-18 09:37:05.153  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-18 09:37:05.153  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-18 09:37:05.153  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-18 09:37:05.405  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-18 09:37:05.414  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-18 09:37:05.423  INFO 21120 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-18 09:37:05.443  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1634530025441 with initial instances count: 3
+2021-10-18 09:37:05.451  INFO 21120 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AIRCRAFT-SERVICE with eureka with status UP
+2021-10-18 09:37:05.452  INFO 21120 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1634530025452, current=UP, previous=STARTING]
+2021-10-18 09:37:05.454  INFO 21120 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AIRCRAFT-SERVICE/host.docker.internal:aircraft-service:9092: registering service...
+2021-10-18 09:37:05.499  INFO 21120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-10-18 09:37:05.500  INFO 21120 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AIRCRAFT-SERVICE/host.docker.internal:aircraft-service:9092 - registration status: 204
+2021-10-18 09:37:05.501  INFO 21120 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9092
+2021-10-18 09:37:05.705  INFO 21120 --- [restartedMain] com.denil.aircraft.AircraftApplication   : Started AircraftApplication in 10.606 seconds (JVM running for 11.83)
+2021-10-18 09:37:42.756  INFO 21120 --- [http-nio-9092-exec-1] com.denil.aircraft.aspect.LoggingAspect  : Method Invoked class com.denil.aircraft.controller.AircraftController : getAircraftList()  Request Arguments []
+2021-10-18 09:37:42.779  INFO 21120 --- [http-nio-9092-exec-1] com.denil.aircraft.aspect.LoggingAspect  : Method Invoked class com.denil.aircraft.service.AircraftService : getAircraftList()  Request Arguments []
+2021-10-18 09:37:43.091  INFO 21120 --- [http-nio-9092-exec-1] com.denil.aircraft.aspect.LoggingAspect  : Method Invoked class com.denil.aircraft.service.AircraftService : getAircraftList()  Response [{"companyName":"British Airways","aircraftType":"WWF","sittingCapacity":110,"aircraftCode":"BA-340"},{"companyName":"Malaysian Airlines","aircraftType":"WWF","sittingCapacity":106,"aircraftCode":"MH-370"},{"companyName":"Vistara","aircraftType":"World Wide Fleet","sittingCapacity":178,"aircraftCode":"V-170"},{"companyName":"","aircraftType":"","sittingCapacity":0,"aircraftCode":""},{"companyName":"denil","aircraftType":"Small Fleet","sittingCapacity":90,"aircraftCode":"DE"},{"companyName":"xyn","aircraftType":"mixed fleet","sittingCapacity":75,"aircraftCode":"BEE"},{"companyName":"tempo","aircraftType":"MIXED","sittingCapacity":65,"aircraftCode":"RE"},{"companyName":"rr","aircraftType":"sitting","sittingCapacity":43,"aircraftCode":"re"}]
+2021-10-18 09:37:43.093  INFO 21120 --- [http-nio-9092-exec-1] com.denil.aircraft.aspect.LoggingAspect  : Method Invoked class com.denil.aircraft.controller.AircraftController : getAircraftList()  Response [{"companyName":"British Airways","aircraftType":"WWF","sittingCapacity":110,"aircraftCode":"BA-340"},{"companyName":"Malaysian Airlines","aircraftType":"WWF","sittingCapacity":106,"aircraftCode":"MH-370"},{"companyName":"Vistara","aircraftType":"World Wide Fleet","sittingCapacity":178,"aircraftCode":"V-170"},{"companyName":"","aircraftType":"","sittingCapacity":0,"aircraftCode":""},{"companyName":"denil","aircraftType":"Small Fleet","sittingCapacity":90,"aircraftCode":"DE"},{"companyName":"xyn","aircraftType":"mixed fleet","sittingCapacity":75,"aircraftCode":"BEE"},{"companyName":"tempo","aircraftType":"MIXED","sittingCapacity":65,"aircraftCode":"RE"},{"companyName":"rr","aircraftType":"sitting","sittingCapacity":43,"aircraftCode":"re"}]
+2021-10-18 09:42:05.181  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 09:47:05.193  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 09:52:05.202  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 09:57:05.218  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:02:05.243  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:07:05.263  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:12:05.275  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:17:05.290  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:22:05.305  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:27:05.421  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:32:05.438  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:37:05.442  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:42:05.447  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:47:05.454  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:52:05.463  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 10:57:05.468  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:02:05.476  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:07:05.486  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:12:05.493  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:17:05.506  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:22:05.521  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:27:05.523  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:32:05.529  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:37:05.545  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:42:05.550  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:47:05.557  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:52:05.571  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 11:57:05.581  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:02:05.590  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:07:05.597  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:12:05.612  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:17:05.624  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:22:05.994  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:27:06.003  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:32:06.019  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:37:06.032  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:42:06.038  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:47:06.048  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:52:06.051  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 12:57:06.055  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:02:06.079  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:07:06.115  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:12:06.439  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:17:06.445  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:22:06.450  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:27:06.458  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:32:06.475  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:37:06.481  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:42:06.486  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:47:06.494  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:52:06.502  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 13:57:06.515  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:02:06.528  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:07:06.538  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:12:06.548  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:17:06.553  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:22:06.561  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:27:06.575  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:32:06.577  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:37:06.593  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:42:06.609  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:47:06.622  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 14:52:06.634  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:10:07.682  WARN 21120 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m732ms778µs100ns).
+2021-10-18 16:12:37.317  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:17:37.341  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:22:37.347  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:27:37.358  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:32:37.359  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:37:37.374  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:42:37.380  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:47:46.535  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:52:46.562  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 16:57:46.575  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:02:46.581  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:07:46.586  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:12:46.594  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:17:46.600  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:22:46.606  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:27:46.620  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:32:46.627  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:37:46.633  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:42:46.634  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:47:46.651  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:52:46.661  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 17:57:46.671  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:02:46.682  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:07:46.688  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:12:46.698  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:17:46.706  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:22:46.718  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:27:46.722  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:32:46.730  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 18:37:46.736  INFO 21120 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:13:13.440  INFO 18592 --- [restartedMain] com.denil.aircraft.AircraftApplication   : Starting AircraftApplication using Java 15.0.1 on Anonymous with PID 18592 (D:\spring-boot\Flight_Service\aircraft\target\classes started by DELL in D:\spring-boot\Flight_Service\aircraft)
+2021-10-18 19:13:13.583  INFO 18592 --- [restartedMain] com.denil.aircraft.AircraftApplication   : No active profile set, falling back to default profiles: default
+2021-10-18 19:13:13.711  INFO 18592 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Fetching config from server at : http://localhost:9085
+2021-10-18 19:13:13.713  INFO 18592 --- [restartedMain] o.s.b.context.config.ConfigDataLoader    : Located environment: name=aircraft-service, profiles=[default], label=null, version=ec534b47557c20d6ec55821470e070f3b3e74d2e, state=null
+2021-10-18 19:13:13.729  INFO 18592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-10-18 19:13:13.734  INFO 18592 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-10-18 19:13:18.086  INFO 18592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-18 19:13:18.674  INFO 18592 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 559 ms. Found 1 JPA repository interfaces.
+2021-10-18 19:13:19.895  INFO 18592 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f846cb09-927c-3311-92c5-f026ecc98f67
+2021-10-18 19:13:23.452  INFO 18592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9092 (http)
+2021-10-18 19:13:23.480  INFO 18592 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-10-18 19:13:23.481  INFO 18592 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-10-18 19:13:24.017  INFO 18592 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-10-18 19:13:24.018  INFO 18592 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10283 ms
+2021-10-18 19:13:25.647  INFO 18592 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-18 19:13:25.983  INFO 18592 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-18 19:13:27.091  INFO 18592 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-18 19:13:28.089  INFO 18592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-10-18 19:13:28.189  WARN 18592 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-10-18 19:13:30.335  INFO 18592 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-10-18 19:13:30.405  INFO 18592 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-10-18 19:13:34.783  INFO 18592 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-18 19:13:34.823  INFO 18592 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-18 19:13:37.349  WARN 18592 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-18 19:13:41.838  WARN 18592 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2021-10-18 19:13:42.575  INFO 18592 --- [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2021-10-18 19:13:42.894  WARN 18592 --- [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-10-18 19:13:42.923  INFO 18592 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2021-10-18 19:13:43.273  INFO 18592 --- [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2021-10-18 19:13:43.482  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2021-10-18 19:13:43.504  INFO 18592 --- [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:13:43.611  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2021-10-18 19:13:43.612  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2021-10-18 19:13:43.613  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2021-10-18 19:13:43.613  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2021-10-18 19:13:43.613  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2021-10-18 19:13:43.614  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2021-10-18 19:13:43.614  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2021-10-18 19:13:44.517  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2021-10-18 19:13:44.567  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2021-10-18 19:13:44.598  INFO 18592 --- [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-10-18 19:13:44.643  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1634564624639 with initial instances count: 1
+2021-10-18 19:13:44.746  INFO 18592 --- [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application AIRCRAFT-SERVICE with eureka with status UP
+2021-10-18 19:13:44.748  INFO 18592 --- [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1634564624748, current=UP, previous=STARTING]
+2021-10-18 19:13:44.754  INFO 18592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AIRCRAFT-SERVICE/host.docker.internal:aircraft-service:9092: registering service...
+2021-10-18 19:13:44.887  INFO 18592 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9092 (http) with context path ''
+2021-10-18 19:13:44.890  INFO 18592 --- [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 9092
+2021-10-18 19:13:44.918  INFO 18592 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_AIRCRAFT-SERVICE/host.docker.internal:aircraft-service:9092 - registration status: 204
+2021-10-18 19:13:46.176  INFO 18592 --- [restartedMain] com.denil.aircraft.AircraftApplication   : Started AircraftApplication in 38.387 seconds (JVM running for 45.571)
+2021-10-18 19:18:43.637  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:23:43.663  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:28:43.674  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:33:43.688  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:36:18.271  INFO 18592 --- [RMI TCP Connection(35)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-18 19:36:18.272  INFO 18592 --- [RMI TCP Connection(35)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-10-18 19:36:18.281  INFO 18592 --- [RMI TCP Connection(35)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2021-10-18 19:38:43.703  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:43:43.719  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:48:43.731  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:53:43.739  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 19:58:43.751  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:03:43.758  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:08:43.774  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:13:43.790  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:18:43.804  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:23:43.805  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:28:43.813  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:33:43.826  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:38:43.829  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:43:43.830  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:48:43.834  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:53:43.836  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 20:58:43.845  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 21:03:43.860  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 21:08:43.877  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 21:13:43.888  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-10-18 21:45:59.943  WARN 18592 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m57s574ms265µs400ns).
+2021-10-18 21:46:11.317  INFO 18592 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration

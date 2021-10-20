@@ -26,3 +26,4 @@ List<Flight> findByDestinationAndScheduledStartTimeBetween(String src,Date from,
 	List<Flight> findByScheduledStartTimeGreaterThan(Date currentDate);
 
 }
+

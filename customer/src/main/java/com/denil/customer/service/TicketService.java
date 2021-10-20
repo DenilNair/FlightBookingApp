@@ -6,7 +6,7 @@ import java.util.List;
 import javax.transaction.Transactional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -32,6 +32,9 @@ public class TicketService {
 
 	@Autowired
 	RestTemplate restTemplate;
+	
+@Value("${flightlist.service.uri}")
+	String flightListServiceUri;
 
 	public List<Ticket> BookedTicketDetails(String pnr) {
 		return tr.findByPnr(pnr);
@@ -48,7 +51,7 @@ public class TicketService {
 		HttpEntity<Ticket> entity1 = new HttpEntity<>(ts1, httpHeaders1);
 		// check flight available or not if not respond back with message flight not
 		// available
-		String flightSeatCheck = restTemplate.exchange("http://localhost:9091/flightservice/flight/src/flightId/"
+		String flightSeatCheck = restTemplate.exchange(flightListServiceUri+"/flightservice/flight/src/flightId/"
 				+ flightId + "/seat/" + (listTicket.size() + 1), HttpMethod.GET, entity1, String.class).getBody();
 
 		try {
@@ -92,7 +95,7 @@ public class TicketService {
 
 		// after ticket booked reduce the number of remaining ticket in particular
 		// flight
-		restTemplate.exchange("http://localhost:9091/flightservice/ticketBooked/updateRemaining/flightId/" + flightId
+		restTemplate.exchange(flightListServiceUri+"/flightservice/ticketBooked/updateRemaining/flightId/" + flightId
 				+ "/decrementBy/" + (-listTicket.size()), HttpMethod.PUT, entity1, String.class).getBody();
 
 		// return restTemplate.exchange("http://localhost:8080/products",

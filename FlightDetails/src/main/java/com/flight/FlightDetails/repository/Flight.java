@@ -20,6 +20,15 @@ public class Flight {
 	private String flightNo;
 	private String source;
 	private String destination;
+	private String status;
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
 	@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MMM-yyyy HH:mm:ss")
 
 	private Date scheduledStartTime;
@@ -41,7 +50,7 @@ public class Flight {
 	}
 
 	public Flight( String flightNo, String source, String destination, Date scheduledStartTime,
-			Date scheduledEndTime,int availableSeat) {
+			Date scheduledEndTime,int availableSeat,String status) {
 		super();
 		this.flightNo = flightNo;
 		this.source = source;
@@ -49,6 +58,7 @@ public class Flight {
 		this.scheduledStartTime = scheduledStartTime;
 		this.scheduledEndTime = scheduledEndTime;
 		this.availableSeat=availableSeat;
+		this.status=status;
 	}
 
 	public int getId() {
